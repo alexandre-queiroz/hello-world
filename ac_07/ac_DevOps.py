@@ -10,6 +10,7 @@ def nao_entre_em_panico():
 
     c = 1
     p = 1
+    numero = 3
 
     primos = "2, "
 
@@ -23,7 +24,7 @@ def nao_entre_em_panico():
             primos = primos + str(numero) + ","
             p += 1
         numero += 1
-
+        
     return primos
 
 if __name__ == "__main__":
